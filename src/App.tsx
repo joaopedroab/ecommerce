@@ -18,7 +18,7 @@ const App = () => (
         <div className="flex flex-col min-h-screen">
           <div className="flex-grow">
             <Routes>
-              <Route path="/" element={<Index />} />
+              <Route path="/ecommerce" element={<Index />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </div>
